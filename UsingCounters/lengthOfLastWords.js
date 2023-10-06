@@ -4,7 +4,7 @@ var lengthOfLastWorld = (s) => {
     let foundLastWord = false
 
     for(let i = s.length - 1; i >= 0; i--){
-        if(s[i] === ' '){
+        if(s[i] === ''){
             length++
             foundLastWord = true
         }else{
